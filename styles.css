@@ -1,0 +1,42 @@
+.text-snippets-cursor > * > textarea, .text-snippets-tabstops > * > textarea, .text-snippets-newline > * > textarea, .text-snippets-delimiter > * > textarea{
+  height: 30px;
+  padding-top: 2px;
+  padding-bottom: 0;
+}
+
+.text-snippets-class > * > textarea{
+  width:40em;
+  height: 100%;
+}
+
+.text-snippets-class > div > div {
+}
+
+.text-snippets-class > * {
+  height: 100%;
+  width: 60em;
+}
+
+.text-snippets-class {
+  height: 70%;
+}
+
+
+.mk-slash-item {
+  display: flex;
+  border-bottom: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: var(--color-purple);
+}
+
+.mk-slash-title {
+  font-weight: bolder;
+  color: var(--color-purple);
+  margin-right: 5px;
+  min-width: 6em;
+}
+
+.mk-slash-value {
+  opacity: 90%;
+  max-width: 20em;
+}

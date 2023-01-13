@@ -1,0 +1,9 @@
+{
+  "id": "emr-obsidian",
+  "name": "EMR",
+  "description": "Implements some basic EMR editing functionalities in obsidian.",
+  "version": "1.0.0",
+  "author": "Jacob Clarke",
+  "authorUrl": "https://jacobaclarke.com",
+  "isDesktopOnly": true
+}

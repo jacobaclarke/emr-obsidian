@@ -1,0 +1,25 @@
+{
+  "name": "text-snippets-obsidian",
+  "version": "0.1.1",
+  "description": "Plugin for using snippets for for faster typing",
+  "main": "main.js",
+  "scripts": {
+    "dev": "obsidian-plugin dev main.ts",
+    "build": "obsidian-plugin build main.ts"
+  },
+  "keywords": [],
+  "author": "Jacob Clarke",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^19.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "@rollup/plugin-typescript": "^8.2.1",
+    "@types/codemirror": "^5.60.6",
+    "@types/node": "^15.6.1",
+    "esbuild": "0.14.47",
+    "obsidian": "latest",
+    "obsidian-plugin-cli": "^0.8.1",
+    "tslib": "^2.4.0",
+    "typescript": "^4.3.2"
+  }
+}
