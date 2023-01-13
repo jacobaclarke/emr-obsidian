@@ -60,11 +60,11 @@ export default class MakeMenu extends EditorSuggest<Command> {
   }
 
   renderSuggestion(value: Command, el: HTMLElement): void {
-    const div = el.createDiv('mk-slash-item');
-    const icon = div.createDiv('mk-slash-icon');
+    const div = el.createDiv('emr-slash-item');
+    const icon = div.createDiv('emr-slash-icon');
     // icon.innerHTML = makeIconSet[value.icon];
-    const title = div.createDiv('mk-slash-title');
-    const content = div.createDiv('mk-slash-value');
+    const title = div.createDiv('emr-slash-title');
+    const content = div.createDiv('emr-slash-value');
     content.setText(value.value);
     //@ts-ignore
     title.setText(value.name);

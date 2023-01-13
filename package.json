@@ -4,8 +4,8 @@
   "description": "Plugin for using snippets for for faster typing",
   "main": "main.js",
   "scripts": {
-    "dev": "obsidian-plugin dev main.ts",
-    "build": "obsidian-plugin build main.ts"
+    "dev": "obsidian-plugin dev -S styles.css main.ts",
+    "build": "obsidian-plugin build -S styles.css main.ts"
   },
   "keywords": [],
   "author": "Jacob Clarke",

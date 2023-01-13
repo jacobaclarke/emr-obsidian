@@ -22,21 +22,23 @@
 }
 
 
-.mk-slash-item {
+.emr-slash-item {
   display: flex;
   border-bottom: 1px;
   border-bottom-style: solid;
   border-bottom-color: var(--color-purple);
+  max-height: em;
+  overflow: hidden;
 }
 
-.mk-slash-title {
+.emr-slash-title {
   font-weight: bolder;
   color: var(--color-purple);
   margin-right: 5px;
   min-width: 6em;
 }
 
-.mk-slash-value {
+.emr-slash-value {
   opacity: 90%;
   max-width: 20em;
 }
